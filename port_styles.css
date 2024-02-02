@@ -1,0 +1,35 @@
+p
+{
+   font-size: 2rem;
+}
+h2
+{
+    font-size: 2em;
+}
+body
+{
+    width:80%;
+    background-color:#08E8DE
+}
+img
+{
+    width: 50px;
+}
+table,tr,td
+{
+    border: 3px solid black;
+}
+input
+{
+    width: 700px;
+}
+button
+{
+    border-radius:20%;
+    background-color:#324AB2;
+    margin-left:300px;
+}
+section
+{
+    background-color: #5DADEC;
+}
