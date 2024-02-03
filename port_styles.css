@@ -5,20 +5,39 @@ p
 h2
 {
     font-size: 2em;
+    text-align: center;
 }
 body
 {
-    width:80%;
-    background-color:#08E8DE
+    
+   width:80%;
+   margin: auto;
+   background-color:#91D7F2;
+    
+}
+.b li a:hover
+{
+    
+    text-decoration:underline;
+    font-size: 45px;
+    color: red;
 }
 img
 {
-    width: 50px;
+    width: 150px;
+    border-radius:50%;
 }
 table,tr,td
 {
     border: 3px solid black;
+    margin: auto;
 }
+th
+{
+    background-color:black;
+    color:white;
+}
+
 input
 {
     width: 700px;
@@ -31,5 +50,23 @@ button
 }
 section
 {
-    background-color: #5DADEC;
+    background-color: #0476D9;
+    width:100%;
+    
+    
+}
+.b
+{
+    background-color: #010B40;
+}
+.b li
+{
+   
+    font-size: 30px;
+    
+}
+.b li a
+{
+    color: white;
+    text-decoration: none;
 }
