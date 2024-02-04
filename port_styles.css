@@ -12,8 +12,21 @@ body
     
    width:80%;
    margin: auto;
-   background-color:#91D7F2;
+   background-color:#ffffb2;
     
+}
+h1,h2,h3
+{
+    color:#ffffb2;
+}
+p{
+ font-family: garamond;   
+ padding-left:50px;
+ padding-right:50px;
+}
+form
+{
+    padding-left:150px;
 }
 .b li a:hover
 {
@@ -31,6 +44,10 @@ table,tr,td
 {
     border: 3px solid black;
     margin: auto;
+}
+#contact h3
+{
+    text-align: center;
 }
 th
 {
@@ -50,8 +67,9 @@ button
 }
 section
 {
-    background-color: #0476D9;
+    background-color: #63c5da;
     width:100%;
+ 
     
     
 }
