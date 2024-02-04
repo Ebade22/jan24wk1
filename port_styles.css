@@ -12,12 +12,23 @@ body
     
    width:80%;
    margin: auto;
-   background-color:#ffffb2;
+  
     
 }
+.top
+{
+    border-radius:50%;
+}
+img[src$=".png"]:before{
+    border-radius;10px, 50px;
+  }
+  img[src$=".jpeg"]:before{
+    border-radius:50px,10px;
+  }
 h1,h2,h3
 {
-    color:#ffffb2;
+    color:white;
+    background-color: #010B40;
 }
 p{
  font-family: garamond;   
@@ -26,7 +37,12 @@ p{
 }
 form
 {
-    padding-left:150px;
+    padding-left:300px;
+}
+.but:hover
+{
+    background-color:red;
+    color:green;
 }
 .b li a:hover
 {
@@ -38,7 +54,7 @@ form
 img
 {
     width: 150px;
-    border-radius:50%;
+    
 }
 table,tr,td
 {
@@ -49,6 +65,9 @@ table,tr,td
 {
     text-align: center;
 }
+
+
+
 th
 {
     background-color:black;
