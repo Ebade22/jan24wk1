@@ -19,10 +19,10 @@ body
 {
     border-radius:50%;
 }
-img[src$=".png"]:before{
+img[src$=".png"]{
     border-radius;10px, 50px;
   }
-  img[src$=".jpeg"]:before{
+  img[src$=".jpeg"]{
     border-radius:50px,10px;
   }
 h1,h2,h3
@@ -48,7 +48,7 @@ form
 {
     
     text-decoration:underline;
-    font-size: 45px;
+    font-size: 25px;
     color: red;
 }
 img
@@ -64,6 +64,37 @@ table,tr,td
 #contact h3
 {
     text-align: center;
+}
+.one
+{
+    background: linear gradient(90deg,blue 90px, white 90px) ;
+    width: 60%;
+}
+.two
+{
+    background: linear gradient(90deg,blue 80px, white 80px);
+    width: 60%;
+
+}
+.three
+{
+    background: linear gradient(90deg,blue 60px, white 60px);
+    width: 60%;
+}
+.four
+{
+    background: linear gradient(90deg,blue 70px, white 70px);
+    width: 60%;
+}
+.five
+{
+    background: linear gradient(90deg,blue 50px, white 50px) ;
+    width: 60%;
+}
+.six
+{
+    background: linear gradient(90deg,blue 20px, white 80px) ;
+    width: 60%;
 }
 
 
@@ -95,15 +126,19 @@ section
 .b
 {
     background-color: #010B40;
+    display: flex;
+    gap: 20px;
 }
 .b li
 {
    
-    font-size: 30px;
+    font-size: 20px;
     
 }
 .b li a
 {
     color: white;
     text-decoration: none;
+    padding:20px;
 }
+
